@@ -1,0 +1,14 @@
+ 2017  git log --oneline
+ 2018  git reset --hard 2dc8edd
+ 2020  git reset --hard 2dc8edd
+ 2023  git push --force
+ 2025  git log
+
+
+ # First, make sure you're on the correct branch
+git checkout your-branch-name
+
+# Force push to overwrite the remote branch with your local state
+git push --force origin your-branch-name
+
+git push --force-with-lease origin your-branch-name
